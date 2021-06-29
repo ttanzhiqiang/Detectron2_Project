@@ -1,0 +1,15 @@
+_BASE_: "../Base-RCNN-FPN.yaml"
+MODEL:
+  WEIGHTS: "F:\\data\\centernetv2_data\\weight\\epoch_300.pt"
+  MASK_ON: False
+  RESNETS:
+    DEPTH: 101
+DATASETS:
+  TRAIN: ("F:\\data\\centernetv2_data\\annotations\\train.json","F:\\data\\centernetv2_data\\images\\train\\",)
+  TEST: ("coco_2017_val",)
+SOLVER:
+  STEPS: (10000,14000,18000,)
+  MAX_ITER: 20000
+  WARMUP_ITERS: 4000
+  WARMUP_FACTOR: 0.001
+VERSION: 2
