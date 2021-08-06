@@ -33,7 +33,11 @@ you have the trained model file from the libtorch(detectron2)
 
 ## Model and 3rdparty
 
-YAML_CPP/opencv4.3.0/libtorch-1.6.0
+data：https://share.weiyun.com/io1NaIqT or https://drive.google.com/drive/folders/1bB0YqxwIA_oXjest2R4LMFmROzT2LIpF?usp=sharing
+
+model : https://share.weiyun.com/fsB1QBM4 or  https://drive.google.com/drive/folders/1DzBaLnso9HilOct7HcQdQl_GUrg9gc0s?usp=sharing
+
+3rdparty：YAML_CPP/opencv4.3.0/libtorch-1.6.0
 
 ## Train API
 
